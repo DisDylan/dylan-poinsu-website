@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Ubuntu:300,400,500,700" rel="stylesheet">
+
+  <title>Touch type fastly</title>
+</head>
+
+<body>
+  <section id="home">
+    <h1>Touch Type Fastly</h1>
+    <div id="rules">
+      <h2>Règles du jeu</h2>
+      <p>Tapez sur votre clavier sur la lettre qui correspond a celle affichée à l'écran dans les 3 secondes, sinon c'est perdu ! Essayez de faire le meilleur score et envoyez le à la fin de votre partie. AH oui ! Le temps se réduit de plus en plus,
+        bon courage !</p>
+    </div>
+    <input type="button" name="start" value="START NOW" id="startGame">
+    </section>
+    <section id="gameRun">
+      <header>
+        <h2 class="litleTitle">Touch Type Fastly</h2>
+        <div class="scoreBloc">
+          <p>SCORE</p>
+          <p id="score"></p>
+        </div>
+        <p id="timeLimit"></p>
+      </header>
+      <div id="totalLife">
+        <i class="fas fa-heart" id="life1"></i>
+        <i class="fas fa-heart" id="life2"></i>
+        <i class="fas fa-heart" id="life3"></i>
+      </div>
+      <div id="letterToType">
+
+      </div>
+      <div id="containerTimer">
+        <div id="timerLoad">
+
+        </div>
+      </div>
+    </section>
+    <section id="finalScore">
+      <div id="containerScore">
+      <header>
+        <h2 class="litleTitle">Touch Type Fastly</h2>
+        <div id="endScore">
+          <p>Votre score final :  </p>
+          <p id="lastScore"></p>
+        </div>
+      </header>
+      <section class="ranking" id="rank">
+        <h3>SCORES</h3>
+        <section id="ranks">
+
+        </section>
+      </section>
+      <input type="button" name="restart" value="NOUVELLE PARTIE" id="restartGame">
+      <!--<input type="button" name="sendScore" value="ENVOYER MON SCORE">
+      <section class="ranking">
+        <h3>TOP 10</h3>
+        <p>CERF</p>
+        <p>PAON</p>
+        <p>CERF</p>
+        <p>PAON</p>
+        <p>CERF</p>
+        <p>PAON</p>
+        <p>SERPENT</p>
+        <p>PAON</p>
+      </section>-->
+    </section>
+    </div>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

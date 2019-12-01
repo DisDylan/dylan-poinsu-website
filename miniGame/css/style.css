@@ -1,0 +1,257 @@
+body {
+  width: 95%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section {
+  width: 95%;
+  height: 95vh;
+  /*border: black 1px solid;*/
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#home h1 {
+  width: 80%;
+  height: 10%;
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#home h2 {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#home #rules {
+  text-align: center;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#home #rules p {
+  padding: 0 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#home input {
+  margin-bottom: 3%;
+  font-size: 3em;
+  padding: 20px 40px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Interface de jeu */
+#gameRun {
+  display: none;
+  border: black solid 3px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#gameRun header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.litleTitle {
+  display: inline-block;
+  padding-left: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.scoreBloc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 250px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.scoreBloc p:nth-child(1) {
+  color: green;
+  font-weight: bold;
+  padding-right: 15px;
+  font-size: 2em;
+}
+
+#score {
+  padding: 20px 5px;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 2em;
+}
+
+#timeLimit {
+  font-size: 2em;
+  padding: 20px 20px;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  visibility: hidden;
+}
+
+#letterToType {
+  height: 300px;
+  width: 350px;
+  text-align: center;
+  margin-bottom: 2%;
+  /*border: black solid 3px;*/
+  box-shadow: 4px 4px 7px black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 6em;
+  font-weight: bold;
+}
+
+#containerTimer {
+  width: 80%;
+  height: 30px;
+  margin-bottom: 4%;
+}
+
+#timerLoad {
+  height: 30px;
+}
+
+#totalLife {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 150px;
+  bottom: 200px;
+}
+
+.fa-heart {
+  font-size: 3em;
+  color: red;
+  padding-bottom: 50px;
+}
+
+.animation1 {
+  animation-duration: 3000ms;
+  animation-name: timerLoader;
+  animation-timing-function: linear;
+}
+.animation2 {
+  animation-duration: 2500ms;
+  animation-name: timerLoader;
+  animation-timing-function: linear;
+}
+.animation3 {
+  animation-duration: 2000ms;
+  animation-name: timerLoader;
+  animation-timing-function: linear;
+}
+.animation4 {
+  animation-duration: 1500ms;
+  animation-name: timerLoader;
+  animation-timing-function: linear;
+}
+.animation5 {
+  animation-duration: 1200ms;
+  animation-name: timerLoader;
+  animation-timing-function: linear;
+}
+
+.animation6 {
+  animation-duration: 800ms;
+  animation-name: timerLoader;
+  animation-timing-function: linear;
+}
+
+@keyframes timerLoader {
+  from {width: 100%; background-color: green}
+  to {width: 0%; background-color: red}
+}
+/* Ecran des scores */
+#finalScore {
+  display: none;
+  position: relative;
+}
+
+#finalScore div#containerScore {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#finalScore header .litleTitle {
+  padding: 0;
+}
+
+#finalScore header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 60%;
+}
+
+#endScore {
+  display: flex;
+}
+
+#lastScore {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#finalScore input {
+  height: 60px;
+  position: absolute;
+  bottom: 100px;
+}
+
+input[name="restart"] {
+  left: 150px;
+  font-size: 2em;
+}
+
+input[name="sendScore"] {
+  right: 150px;
+  font-size: 2em;
+}
+
+.ranking {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  width: 30%;
+}
+
+#ranks {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
