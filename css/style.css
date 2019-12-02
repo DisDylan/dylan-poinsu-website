@@ -44,7 +44,7 @@ a:hover {
 header {
     width: 100%;
     height: 800px;
-    background-image: url(https://pixabay.com/get/55e1d540425bad14f6d1867dda6d367a1138dde554556c4870287ed6964cc75eb9/pavement-3103891_1920.jpg);
+    background-image: url(../img/bgHeader.jpg);
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
