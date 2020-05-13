@@ -1,5 +1,6 @@
 html {
     width: 100%;
+    background-color: rgb(134, 255, 140);
 }
 
 body {
@@ -19,7 +20,7 @@ h3 {
 nav {
     width: 100%;
     height: 50px;
-    box-shadow: 1px 1px 5px cyan;
+    box-shadow: 1px 1px 5px rgb(134, 255, 140);
     background-color: rgb(255, 255, 255, 0.9);
     position: fixed;
     display: flex;
@@ -50,11 +51,11 @@ nav a {
 }
 
 a {
-    color: cyan;
+    color: rgb(134, 255, 140);
 }
 
 a:hover {
-    color: rgb(51, 255, 112);
+    color: rgb(255, 255, 255);
 }
 
 header {
@@ -89,14 +90,14 @@ header h1 {
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
     color: white;
-    text-shadow: cyan 5px 5px 20px;
+    text-shadow: rgb(134, 255, 140) 5px 5px 20px;
 }
 
 header p {
     font-style: italic;
     font-family: 'Ubuntu', sans-serif;
     color: white;
-    text-shadow: rgb(114, 185, 185) 5px 5px 10px;
+    text-shadow: rgb(126, 228, 131) 5px 5px 10px;
 }
 
 #main-content {
@@ -130,13 +131,14 @@ header p {
 }
 
 .card-sector {
-    border: solid 2px cyan;
+    border: solid 2px black;
+    background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 30%;
+    width: 40%;
     height: 300px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -162,5 +164,21 @@ header p {
 }
 
 .card-content a:hover {
-    color: rgb(6, 85, 202);
+    color: rgb(204, 204, 204);
+}
+
+#downloads {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+
+#downloads .card-sector {
+    width: 80%;
+    height: 100%;
+}
+
+.imgGame {
+    height: 40%;
 }
