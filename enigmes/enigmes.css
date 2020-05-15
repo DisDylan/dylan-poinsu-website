@@ -9,7 +9,7 @@ header h1 {
 }
 
 header p {
-    text-shadow: red 5px 5px 10px;
+    text-shadow: #36382E 5px 5px 20px;
 }
 
 nav a {
@@ -24,6 +24,11 @@ nav a {
 
 #instructions {
     position: relative;
-    left: 50%;
-    top: 50%;
+    left: 30%;
+    padding-top: 60%;
+    display: inline-block;
+}
+
+#goNext {
+    visibility: hidden;
 }

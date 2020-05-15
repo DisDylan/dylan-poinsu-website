@@ -1,4 +1,6 @@
 var panda = document.getElementById('octocat');
+var instructionsBloc = document.getElementById('instructions');
+var imgContinue = document.getElementById('goNext');
 
 panda.addEventListener("click", clickOctocat, false);
 
@@ -9,13 +11,14 @@ function clickOctocat() {
     if (Number.isInteger(answer)) {
         if (answer === 12) {
             alert('Bien joué, passons à la suite !');
+            imgContinue.style.visibility = 'visible';
         } else {
             alert('Perdu ! Rééssaie ..');
-            clickOctocat()
+            //clickOctocat()
         };
     } else {
         alert('Entre une valeur numérique je te prie.');
-        clickOctocat();
-    }
+        //clickOctocat();
+    };
     return answer
 };
