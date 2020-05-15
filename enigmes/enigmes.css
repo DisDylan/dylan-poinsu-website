@@ -15,3 +15,15 @@ header p {
 nav a {
     color: #36382E;
 }
+
+#main-content {
+    background-color: black;
+    color: black;
+    position: relative;
+}
+
+#instructions {
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
