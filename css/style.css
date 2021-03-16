@@ -1,184 +1,120 @@
 html {
-    width: 100%;
-    background-color: rgb(134, 255, 140);
-}
-
-body {
-    width: 100%;
-}
-
-h3 {
-    font-size: 230%;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.container {
-    width: 100%;
-}
-
-nav {
-    width: 100%;
-    height: 50px;
-    box-shadow: 1px 1px 5px rgb(134, 255, 140);
-    background-color: rgb(255, 255, 255, 0.9);
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 8;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-nav ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 200%;
-    font-weight: bold;
-    opacity: 0.8;
-}
-
-nav a {
-    text-shadow: black 2px 2px 5px;
-}
-
-#octocat {
-    height: 45px;
-    width: auto;
-    opacity: 1;
-}
-
-a {
-    color: rgb(134, 255, 140);
-}
-
-a:hover {
-    color: rgb(255, 255, 255);
+	width: 100%;
+	background-color: #587291;
 }
 
 header {
-    width: 100%;
-    height: 800px;
-    background-image: url(../img/bgHeader.jpg);
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
-    font-size: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+	height: 300px;
+	background-color: white;
+	border-bottom: 10px solid #15E6CD;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
-#octocat-title {
-    height: 180px;
-    width: auto;
-}
-
-#main-header-content {
-    height: 200px;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+.container {
+	width: 100%;
 }
 
 header h1 {
-    font-size: 200%;
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    text-shadow: rgb(134, 255, 140) 5px 5px 20px;
+	font-size: 90px;
+	color: #2F97C1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding: 50px;
 }
 
-header p {
-    font-style: italic;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    text-shadow: rgb(126, 228, 131) 5px 5px 10px;
+header div#title-head {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
 }
 
-#main-content {
-    height: 2000px;
+header div#head-content {
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 50px;
 }
 
-#intro {
-    color: white;
-    background-color: black;
-    font-size: 2.5em;
-    font-family: 'Ubuntu', sans-serif;
-    width: 100%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+header div#languages {
+	width: 40%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 }
 
-#card-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 400px;
+header div#languages span {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.card-sector h3 {
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
+header div#languages span p{
+	font-size: 20px;
+	color: rgb(77, 77, 77);
+	font-weight: bold;
 }
 
-.card-sector {
-    border: solid 2px black;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 40%;
-    height: 300px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    font-family: 'Ubuntu', sans-serif;
+header div#languages .fab {
+	font-size: 40px;
+	margin-top: 30px;
 }
 
-.card-sector:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+#languages .fa-html5 {
+	color: #FF370C;
 }
 
-.card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 200%;
-    height: 80%;
-    font-family: 'Ubuntu', sans-serif;
+#languages .fa-css3-alt {
+	color: #004BE2;
 }
 
-.card-content a {
-    color: grey;
+#languages .fa-js-square {
+	color: #EBF700;
 }
 
-.card-content a:hover {
-    color: rgb(204, 204, 204);
+#languages .fa-python {
+	color: #00A0F7;
 }
 
-#downloads {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 800px;
+#languages .fa-linux {
+	color: #727272;
 }
 
-#downloads .card-sector {
-    width: 80%;
-    height: 100%;
+#languages .fa-github {
+	color: black;
 }
 
-.imgGame {
-    height: 40%;
+header h2 {
+	font-size: 40px;
+	color: #1CCAD8;
+	font-family: 'Montserrat Alternates', sans-serif;
+	padding-left: 50px;
+}
+
+header #title-head .fab {
+	font-size: 70px;
+	color: rgb(77, 77, 77);
+	padding-left: 50px;
+}
+
+div#intro {
+	height: 200px;
+	background-color: white;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+div#intro p {
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: #2F97C1;
+	text-align: center;
+	width: 40%;
 }
