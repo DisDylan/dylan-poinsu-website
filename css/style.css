@@ -1,15 +1,14 @@
 html {
 	width: 100%;
-	background-color: #587291;
+	background-color: #ffffff;
 }
 
 header {
-	height: 300px;
+	height: 350px;
 	background-color: white;
-	border-bottom: 10px solid #D11AC6;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: left;
 }
 
 .container {
@@ -17,60 +16,38 @@ header {
 }
 
 header h1 {
-	font-size: 90px;
-	color: #7600D2;
+	font-size: 30px;
+	color: #414141;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	padding: 50px;
+	position: relative;
+	left: 50px;
+	top: 50px;
 }
 
-header div#title-head {
-	width: 50%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+header p {
+	font-size: 40px;
+	color: #414141;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	font-weight: lighter;
+	left: 50px;
+	top: 130px;
+	position: absolute;
 }
 
-header div#head-content {
-	width: 40%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 50px;
+#background img {
+	width: 100%;
+	height: 100%;
 }
 
-header div#languages {
-	width: 40%;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-}
-
-header div#languages span {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-}
-
-header div#languages span p{
+#background p {
+	position: relative;
+	bottom: 80px;
+	color: white;
+	left: 45%;
 	font-size: 20px;
-	color: rgb(77, 77, 77);
-	font-weight: bold;
-}
-
-header div#languages span {
-	font-size: 40px;
-	margin-top: 20px;
-}
-
-header h2 {
-	font-size: 40px;
-	color: #1CCAD8;
-	font-family: 'Montserrat Alternates', sans-serif;
-	padding-left: 50px;
+	display: block;
+	width: max-content;
 }
 
 header #title-head .fab {
