@@ -66,8 +66,28 @@ div#intro {
 }
 
 div#intro p {
-	font-family: 'Montserrat Alternates', sans-serif;
-	color: #09059A;
+	font-family: 'Montserrat', sans-serif;
+	color: #414141;
 	text-align: center;
-	width: 40%;
+	font-size: 1.6em;
+	width: 100%;
+}
+
+div#reasons {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+div#reasons p {
+	display: block;
+	width: 25%;
+	height: 50px;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: #31b1d1;
 }
