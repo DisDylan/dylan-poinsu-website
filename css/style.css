@@ -73,20 +73,34 @@ div#intro p {
 	width: 100%;
 }
 
-div#reasons {
-	width: 100%;
+#reasons {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
+	height: 250px;
+	width: 100%;
 }
 
-div#reasons p {
-	display: block;
+.reason {
 	width: 25%;
-	height: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.reason p {
+	display: block;
+	width: 100%;
+	/*height: 50px;*/
 	font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	color: #31b1d1;
+	margin-top: 50px;
+}
+
+#reasons i {
+	font-size: 80px;
+	color:rgb(77, 77, 77);
 }
