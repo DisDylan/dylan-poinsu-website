@@ -140,7 +140,13 @@ div#intro p {
 
 .blocfaq h3 {
 	font-size: 30px;
-	font-weight: bold;
+	font-weight: 500;
 	margin-bottom: 20px;
 	margin-top: 35px;
+	color:#414141;
+}
+
+.blocfaq p {
+	font-family: 'Arima', 'Montserrat', sans-serif;
+	font-size: 30px;
 }
