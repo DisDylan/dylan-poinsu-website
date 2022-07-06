@@ -122,11 +122,13 @@ div#intro p {
 	border-color: aqua;
 	align-items: center;
 	justify-content: space-around;
-	padding-top: 80px;
+	margin-top: 250px;
 }
 
 #faq > p:first-child {
-	font-size: 60px;
+	font-size: 70px;
+	margin-bottom: 150px;
+	color: #50ae6f;
 }
 
 .blocfaq {
@@ -141,8 +143,8 @@ div#intro p {
 .blocfaq h3 {
 	font-size: 30px;
 	font-weight: 500;
-	margin-bottom: 20px;
-	margin-top: 35px;
+	margin-bottom: 30px;
+	margin-top: 40px;
 	color:#414141;
 }
 
