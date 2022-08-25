@@ -153,6 +153,38 @@ div#intro p {
 	font-size: 30px;
 }
 
+#tarifs {
+	display: flex;
+	padding-top: 300px;
+	color: rgb(59, 191, 99);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#tarifs p {
+	display: block;
+	font-family: 'Arima', 'Montserrat', sans-serif;
+	padding-top: 30px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#tarifs > p:last-child {
+	color: rgb(37, 37, 37);
+	font-weight: 600;
+	padding-top: 50px;
+	font-size: 15px;
+	width: 40%;
+}
+
+#tarifs h3 {
+	display: block;
+	font-size: 100px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 60px;
+}
+
 footer {
 	margin-top: 150px;
 	height: 300px;
