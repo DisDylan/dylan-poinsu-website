@@ -50,3 +50,29 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #505050;
+}
+
+a:visited {
+  color: #505050;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+}
+
+a:hover {
+  border-bottom: 2px solid grey;
+}
+
+a:active {
+  background: #265301;
+}
