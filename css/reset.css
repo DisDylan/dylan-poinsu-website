@@ -74,5 +74,5 @@ a:hover {
 }
 
 a:active {
-  background: #265301;
+  opacity: 1;
 }
