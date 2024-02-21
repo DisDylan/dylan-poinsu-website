@@ -20,8 +20,8 @@ header h1 {
 	color: #414141;
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
-	left: 50px;
-	top: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
 }
 
 h3, p {
